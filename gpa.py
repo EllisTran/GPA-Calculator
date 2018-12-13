@@ -1,4 +1,11 @@
 keepGoing = True        #Keeps the loop going
+
+print("\n<------------------------------------------------------------------------->")
+print("                     WELCOME TO ELLIS'S GPA CALCULATOR                      ")
+print("<------------------------------------------------------------------------->\n")
+
+
+
 print("Input Done if you're done inputting your class\n") #Instructions
 grade = 0.0     #The grade for each class ex: A, B, C, etc.
 numCredits = 0.0        #Records how many total credits to divide by
@@ -42,4 +49,8 @@ while keepGoing:
 #formula for GPA
 gpa = gradePoint/numCredits
 print("Your GPA is: " , round(gpa, 2))
+
+print("\n<------------------------------------------------------------------------->")
+print("                     ELLIS'S GPA CALCULATOR SAYS GOODBYE                      ")
+print("<------------------------------------------------------------------------->\n")
 
